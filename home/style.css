@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    
+
+    --color1: #fadfca;
+    --color2: #955645;
+    --color3: #67291a;
+    --color4: #321704;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+/*========================SECTION PRODUTOS========================*/
+
+.produtos {
+    background-color: var(--color1);
+    margin:16px ;
+}
+
+.produtos > .cards-produtos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    
+}
+
+.produtos > .cards-produtos > a > img {
+    width: 80px;
+    height: 136px;
+}
+
+
+/*========================SECTION LINHAS========================*/
+
+
+
+
+
+/*========================SECTION SOBRE========================*/
+
+
+
+
+
+
+/*========================SECTION LOJAS========================*/
